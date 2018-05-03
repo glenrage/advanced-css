@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/glenrage/advanced-css/issues"
   },
-  "homepage": "https://github.com/glenrage/advanced-css#readme"
+  "homepage": "https://github.com/glenrage/advanced-css#readme",
+  "dependencies": {
+    "prettier": "^1.12.1"
+  }
 }
