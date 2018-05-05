@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/* use font in body so child elements are supported  */
+
+body {
+  box-sizing: border-box;
+}
