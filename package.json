@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass":
-      "node-sass Natours/starter/sass/main.scss Natours/starter/css/style.css -w"
+    "compile:sass": "node-sass Natours/starter/sass/main.scss Natours/starter/css/style.css -w"
   },
   "repository": {
     "type": "git",
