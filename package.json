@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass Natours/starter/sass/main.scss Natours/starter/css/style.css -w"
+    "compile:sass":
+      "node-sass Natours/starter/sass/main.scss Natours/starter/css/style.css",
+    "watch:sass": "nodemon -e scss -x \"npm run compile:sass\""
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,6 @@
     "prettier": "^1.12.1"
   },
   "devDependencies": {
-    "node-sass": "^4.9.0"
+    "node-sass": "^4.5.3"
   }
 }
