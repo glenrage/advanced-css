@@ -1,0 +1,34 @@
+.container {
+  max-width: 120rem;
+  min-height: 50rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: var(--shadow-dark);
+}
+
+.content {
+  display: flex;
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: #fff;
+  // border-bottom: var(--color-grey-light-2);
+  border-bottom: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  //first zero is growth, 2nd is shrink, 3rd is value
+  flex: 0 0 18%;
+}
+
+.hotel-view {
+  flex: 1;
+  background-color: #fff;
+  background-color: orange;
+}
