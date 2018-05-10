@@ -14,8 +14,7 @@
   font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
-  // border-bottom: var(--color-grey-light-2);
-  border-bottom: red;
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,10 +24,36 @@
   background-color: var(--color-grey-dark-1);
   //first zero is growth, 2nd is shrink, 3rd is value
   flex: 0 0 18%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
   flex: 1;
   background-color: #fff;
-  background-color: orange;
+}
+
+.detail {
+  font-size: 1.4rem;
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+}
+
+.description {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
